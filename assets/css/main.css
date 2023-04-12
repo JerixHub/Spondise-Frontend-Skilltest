@@ -1,0 +1,370 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: 'Poppins';
+}
+
+button#button-addon1 {
+    border: none;
+    border-bottom: 1px solid var(--bs-border-color);
+    border-top: 1px solid var(--bs-border-color);
+}
+
+button#button-addon2 {
+    border: none;
+    border-bottom: 1px solid var(--bs-border-color);
+    border-top: 1px solid var(--bs-border-color);
+    border-right: 1px solid var(--bs-border-color);
+}
+
+.profile-dropdown {
+    border: 1px solid #000;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-left: 10px;
+}
+
+.profile-dropdown span {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.profile-dropdown img {
+    max-width: 50px;
+}
+
+.nav-container {
+    border-bottom: 1px solid #e8e8f3;
+}
+
+.breadcrumb-progress-container {
+    border-bottom: 1px solid #e8e8f3;
+    padding-bottom: 20px;
+}
+
+.my-breadcrumb {
+    color: #F29820;
+    font-size: 14px;
+}
+
+.my-breadcrumb a {
+    color: #F29820;
+}
+
+.my-breadcrumb .breadcrumb-item+.breadcrumb-item::before {
+    color: #F29820;
+}
+
+.breadcrumb-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.my-breadcrumb .breadcrumb {
+    margin: 0px;
+}
+
+.switch .form-switch {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 0px;
+}
+
+
+.switch .form-switch span {
+    font-size: 14px;
+}
+
+.switch .form-switch .form-check-input {
+    float: none;
+    margin-left: 0px;
+}
+
+.form-check-input:checked {
+    background-color: #F29820;
+    border-color: #F29820;
+}
+
+.progress-bar-container {
+    min-width: 30%;
+}
+
+.progress-bar-container .progress-bar-label {
+    display: flex;
+    justify-content: space-between;
+}
+
+.breadcrumb-cointainer .progress {
+    height: 3px !important;
+}
+
+.progress-bar-container span {
+    font-size: 14px;
+}
+
+.profile-main {
+    margin-top: 20px;
+    text-align: center;
+    border-bottom: 1px solid #e8e8f3;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.profile-main .profile-name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.profile-name-image {
+    border: 1px solid #e8e8f3;
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.profile-badges {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.profile-badges li {
+    border-top: 1px solid #e8e8f3;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.profile-badges li:nth-child(5) {
+    border-bottom: 1px solid #e8e8f3;
+}
+
+.verify-country-container,
+.verify-email-container,
+.verify-identity-container {
+    position: relative;
+}
+
+.floating-label-container {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    position: absolute;
+    width: 100%;
+}
+
+.floating-label-container:first-child {
+    margin-top: -10px;
+}
+
+.floating-label-container span {
+    background-color: #fff;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.verify-phone-container {
+    border: 1px solid #e8e8f3;
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.verify-id-inner-container,
+.upload-image {
+    border-bottom: 1px solid #e8e8f3;
+    padding-bottom: 20px;
+}
+
+.row span.inner-title {
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.row.upload-image,
+.row.selfie-container {
+    padding-top: 10px;
+}
+
+.upload-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #e8e8f3;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.upload-title {
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.upload-desc {
+    font-weight: 300;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.upload-btn {
+    border-radius: 50px;
+    background-color: #F29820;
+}
+
+.socials>span,
+.sponsors>span {
+    font-weight: 500;
+}
+
+.youtube-container,
+.facebook-container,
+.instagram-container,
+.tiktok-container {
+    position: relative;
+}
+
+.youtube-inner-container,
+.facebook-inner-container,
+.instagram-inner-container,
+.tiktok-inner-container {
+    border: 1px solid #e8e8f3;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.social-switch {
+    position: absolute;
+    left: 45%;
+    top: 0;
+    margin: 0;
+    margin-top: -12px;
+}
+
+.row.social {
+    padding-top: 20px;
+}
+
+.social-title-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.sponsors {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #e8e8f3;
+}
+
+.sponsors>p {
+    font-weight: 300;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+}
+
+.sponsors-progress {
+    margin-top: 20px;
+}
+
+.sponsors-progress ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.sponsors-progress ul>li {
+    margin-top: 10px;
+}
+
+.sponsors-progress .progress-bar {
+    background-color: #F29820;
+    border-radius: 10px;
+}
+
+.youtube-progress-container,
+.facebook-progress-container,
+.instagram-progress-container,
+.tiktok-progress-container,
+.label-progress-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.save-profile {
+    text-align: right;
+    margin-bottom: 30px;
+}
+
+.footer {
+    padding-top: 10px;
+    border-top: 1px solid #e8e8f3;
+}
+
+.footer-right ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 15px;
+}
+
+.footer-right ul>li>a {
+    font-size: 14px;
+    text-decoration: none;
+    color: #000;
+}
+
+.footer-right ul>li>a:hover {
+    color: #F29820;
+}
+
+@media (max-width: 800px) {
+    .breadcrumb-container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .youtube-inner-container,
+    .facebook-inner-container,
+    .instagram-inner-container,
+    .tiktok-inner-container {
+        margin-bottom: 20px;
+    }
+
+    .footer-right ul {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+@media (max-width: 425px) {
+    .profile-name-image {
+        margin-bottom: 30px;
+    }
+
+    .youtube-inner-container,
+    .facebook-inner-container,
+    .instagram-inner-container,
+    .tiktok-inner-container {
+        margin-bottom: 20px;
+    }
+
+    .footer-right ul {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
